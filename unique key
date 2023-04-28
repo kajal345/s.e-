@@ -1,0 +1,6 @@
+A unique key in SQL is the set of fields or columns of a table that helps us uniquely identify records. 
+The unique key guarantees the uniqueness of the columns in the database.
+It is similar to the primary key but can accept a null value, unlike it
+for example in student table student mobile number is unique key.
+we can save null value in unique key 
+it is like primary key.but it can accept null values
