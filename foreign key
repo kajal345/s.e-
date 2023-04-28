@@ -1,0 +1,4 @@
+he FOREIGN KEY constraint is a key used to link two tables together.
+
+A FOREIGN KEY is a field  in one table that refers to the PRIMARY KEY in another table.
+for example in student table st_id is a primary key so in teacher table st_id can be foriegn  key.
