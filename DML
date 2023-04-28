@@ -1,1 +1,20 @@
+DML
 
+The DML commands in Structured Query Language change the data present in the SQL database.
+We can easily access, store, modify, update and delete the existing records from the database using DML commands.
+dml commands are:
+
+SELECT Command
+INSERT Command
+UPDATE Command
+DELETE Command
+
+1)SELECT is the most important data manipulation command in Structured Query Language. 
+The SELECT command shows the records of the specified table. 
+It also shows the particular record of a particular column by using the WHERE clause.
+SELECT column_Name_1, column_Name_2, ….., column_Name_n ..FROM Name_of_table;  
+column_Name_1, column_Name_2, ….., column_Name_N are the names of those columns whose data we want to retrieve from the table.
+If we want to retrieve the data from all the columns of the table,we have to use select command.
+
+for example i want to know students who get  50 marks out of 100..so there i can use select command.
+SELECT * FROM Student WHERE Stu_Marks = 50;  
