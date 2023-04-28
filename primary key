@@ -6,3 +6,6 @@ Each table in database must have one primary key.
 primary key is autoincrement means we dnt need to add data in primary key coumn because it is automatically increased
 for example if my primary key is start with 1 then it will be automatically increased by 2 3 4...
 primary key has no duplicate data.it is always unique
+ex.
+Each employee has a unique personal number, company code, etc.
+each country has unique name and pincode number
