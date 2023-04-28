@@ -1,0 +1,26 @@
+
+
+There are different types of database
+Centralised database.
+The information  is stored at a centralized location and the users from different locations can access this data. 
+
+
+Distributed database.
+The data is not at one place and is distributed at various sites of an organization. These sites are connected to each other with the help of communication links which helps them to access the distributed data easily.
+
+You can imagine a distributed database as a one in which various portions of a database are stored in multiple different locations(physical) along with the application procedures which are replicated and distributed among various points in a network.
+
+Personal database.
+Data is collected and stored on personal computers which are small and easily manageable. The data is generally used by the same department of an organization and is accessed by a small group of people.
+
+End-user database.
+
+
+Commercial database.
+
+NoSQL database.
+Operational database.
+Relational database.
+Cloud database.
+Object-oriented database.
+Graph database.
