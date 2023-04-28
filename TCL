@@ -1,0 +1,30 @@
+CL stands for Transaction control language.
+
+A single unit of work in a database is formed after the consecutive execution of commands is known as a transaction.
+There are certain commands present in SQL known as TCL commands that help the user manage the transactions that take place in a database.
+COMMIT. ROLLBACK and SAVEPOINT are the most commonly used TCL commands in SQL.
+for example: we can save data permanently
+
+commit:
+his command helps a user to save a given transaction into the DB permanently.
+When using a DML command like DELETE, UPDATE, or INSERT, the alterations made are not permanent until one closes the current session. Meaning, the changes can roll back if one doesn’t store data permanently. Thus, to avoid it and be on a safer side, we use the COMMIT command. It marks these changes as permanent.
+
+syntax:
+commit
+
+This command functions to restore the DB to the very committed state.
+One can also use it with the SAVEPOINT command when willing to jump to a save point in the ongoing transaction. 
+Basically, it helps a user in getting or restoring the data to the last committed state/savepoint.
+
+A user may deploy the UPDATE command to make a few changes in the DB, and they may realize that the alterations are unrequired.
+So, if, due to some reason, the inserted, updated, or deleted data is incorrect, 
+the user can use the ROLLBACK command to rollback the data to the last committed state or any particular savepoint. 
+Meaning, you can undo the changes if the user didn’t commit using the COMMIT command.
+
+savepoint:
+
+This command helps in saving a transaction temporarily so that a user can easily rollback to that point as and when required
+. So, you can name different data states in a table using the SAVEPOINT command and rollback to it as per the requirement using the ROLLBACK command.
+
+synatx:
+SAVEPOINT savepoint_name;
