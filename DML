@@ -34,7 +34,16 @@ INSERT INTO Student (Stu_id, Stu_Name, Stu_Marks, Stu_Age) VALUES (2, kajal, 50,
 UPDATE DML Command
 UPDATE is another most important data manipulation command in Structured Query Language, which allows users to update or modify the existing data in database tables.
 
+DELETE is a DML command which allows SQL users to remove single or multiple existing records from the database tables.
 
+This command of Data Manipulation Language does not delete the stored data permanently from the database. We use the WHERE clause with the DELETE command to select specific rows from the table.
+
+Syntax of DELETE Command
+
+DELETE FROM Table_Name WHERE condition;  
+ for example i want to student marks where st_id=5;
+ 
+ delete from student where st_id=5;
 UPDATE Table_name SET [column_name1= value_1, ….., column_nameN = value_N] WHERE CONDITION;  
 Here, 'UPDATE', 'SET', and 'WHERE' are the SQL keywords, and 'Table_name' is the name of the table whose values you want to update.
 Suppose, you want to update Stu_Marks and Stu_Age of that student whose Stu_Id is 114 and 202. To do this, you have to write the following DML Update command:
