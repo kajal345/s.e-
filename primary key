@@ -9,3 +9,5 @@ primary key has no duplicate data.it is always unique
 ex.
 Each employee has a unique personal number, company code, etc.
 each country has unique name and pincode number
+in student table st_id can be primary key.
+
