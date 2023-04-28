@@ -1,9 +1,12 @@
 dbms stands for database management system. 
 rdbms stands for Relational Database Management System
-
+dbms
 in dbms,data stored in the file format.
 Data stored is a small quantity.
 there is a noconnection between data
+
+rdbms
 in rdbms,Data stored is in table format.
-Data is stored in a large amount.
+in rdbms,Data is stored in a large amount.
+
 Data in the form of a table are linked together
