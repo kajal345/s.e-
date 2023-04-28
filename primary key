@@ -1,0 +1,8 @@
+Primary key is a value which is unique for every record in the table
+for example..in your school or college you have your unique roll no and enrollment no.
+because in school,there is  a some students who have same name and same mobile no.or else
+but our roll no is always unique.
+Each table in database must have one primary key.
+primary key is autoincrement means we dnt need to add data in primary key coumn because it is automatically increased
+for example if my primary key is start with 1 then it will be automatically increased by 2 3 4...
+primary key has no duplicate data.it is always unique
