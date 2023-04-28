@@ -1,0 +1,22 @@
+The Data Definition Language is made up of SQL commands that can be used to design the database structure.
+It simply handles database schema descriptions and is used to construct and modify the structure of database objects in the database.
+
+we can create database structure in DDL
+DDL refers to a set of SQL instructions for creating, modifying, and deleting database structures, but not data.
+
+
+in ddl:
+commands:
+1)create command:-
+for create database 
+
+create database database name//in database name we have to give name to database which we want to create
+
+for example i want to create school database then i will write
+
+
+create database school
+
+now we have to create table for storing data
+
+table is madeup with rows and columns.
