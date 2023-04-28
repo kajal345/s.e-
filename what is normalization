@@ -1,0 +1,23 @@
+what is normalization
+
+Normalization is the process of organizing data in a database. 
+This includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency
+ Normalization is the process of minimizing redundancy (duplicity) from a relation or set of relations. • Redundancy in relation may cause insertion, deletion and updation anomalies. So, it helps to minimize the redundancy in relations. • 
+ Most Commonly used normal forms
+ 
+ for example 
+ Redundant data wastes disk space and creates maintenance problems. If data that exists in more than one place must be changed, the data must be changed in exactly the same way in all locations
+ . A customer address change is much easier to implement if that data is stored only in the Customers table and nowhere else in the database.
+ 
+ there are few steps for normalization
+ 
+ 1)first normal form
+ 2)second normal form
+ 3)third normal form
+ 
+ If the first rule is observed, the database is said to be in first normal form. If the first three rules are observed, the database is considered to be in "third normal form." 
+ Although other levels of normalization are possible.
+ 
+
+ 
+ 
