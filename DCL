@@ -1,0 +1,8 @@
+DCL stands for data control language
+
+this commands are useful for a permisions in database and control database
+
+GRANT: This command gives users access privileges to the database.
+you can give permission to the user who can acess your database
+REVOKE: This command withdraws the user’s access privileges given by using the GRANT command.
+you can take back that permission from the user 
