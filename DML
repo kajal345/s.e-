@@ -18,3 +18,28 @@ If we want to retrieve the data from all the columns of the table,we have to use
 
 for example i want to know students who get  50 marks out of 100..so there i can use select command.
 SELECT * FROM Student WHERE Stu_Marks = 50;  
+
+
+2)insert command
+INSERT is another most important data manipulation command in Structured Query Language, 
+which allows users to insert data in database tables.
+
+INSERT INTO TABLE_NAME ( column_Name1 , column_Name2 , column_Name3 , .... column_NameN )  VALUES (value_1, value_2, value_3, .... value_N ) ; 
+where table name:table name in which you want to insert data
+column name->table's column name
+values->value you want to insert
+
+INSERT INTO Student (Stu_id, Stu_Name, Stu_Marks, Stu_Age) VALUES (2, kajal, 50, 23);  
+
+UPDATE DML Command
+UPDATE is another most important data manipulation command in Structured Query Language, which allows users to update or modify the existing data in database tables.
+
+
+UPDATE Table_name SET [column_name1= value_1, ….., column_nameN = value_N] WHERE CONDITION;  
+Here, 'UPDATE', 'SET', and 'WHERE' are the SQL keywords, and 'Table_name' is the name of the table whose values you want to update.
+Suppose, you want to update Stu_Marks and Stu_Age of that student whose Stu_Id is 114 and 202. To do this, you have to write the following DML Update command:
+
+
+UPDATE Student SET Stu_Marks = 50, Stu_Age = 22 WHERE Stu_Id = 114 AND Stu_Id = 202;  
+
+
