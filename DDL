@@ -34,4 +34,30 @@ column1 is the name of the first column,
 data_type refers to the type of data that will be stored in this column. For instance, int is used to represent integer data. 
 size refers to the maximum amount of data that can be stored in a certain column.
 
- CREATE TABLE Employee(Emp_Name VARCHAR2(20), DOB DATE, Mobile INT(10), Email VARCHAR2(20));
+The DROP command can be used to delete a whole database or simply a table that means entire data will also be deleted. The DROP statement deletes existing objects such as databases, tables, indexes, and views.
+Syntax: 
+For dropping table: DROP TABLE table_name;
+For dropping database: DROP DATABASE db_name;
+
+Example: DROP TABLE Employee; 
+drop database office.
+ALTER Command: In an existing table, this command is used to add, delete/drop, or edit columns.
+It can also be used to create and remove constraints from a table that already exists.
+
+
+ To add a new column:
+Syntax: ALTER TABLE table_name ADD column_name COLUMN-definition;
+Example: ALTER TABLE Employee ADD Address VARCHAR2(20);
+To modify the existing column:
+
+Syntax: ALTER TABLE MODIFY(COLUMN DEFINITION….);
+
+Example: ALTER TABLE Employee MODIFY(Emp_Name VARCHAR2(35));
+
+The above command will modify the ‘Emp_Name’ column to data type VARCHAR2 with size 35.
+
+TRUNCATE Command: used to indicate the table’s extents for deallocation (empty for reuse). This procedure removes all data from a table quickly,it deletes only data not a structure.
+Syntax: TRUNCATE TABLE  table_name;
+Example: TRUNCATE TABLE Employee;
+
+The above command will delete the data from the ‘Employee’ table but not the table.
