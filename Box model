@@ -8,3 +8,25 @@ Padding - Clears an area around the content. The padding is transparent
 Border - A border that goes around the padding and content
 Margin - Clears an area outside the border. The margin is transparent
 The box model allows us to add a border around elements, and to define space between elements. 
+
+Result Size: 668 x 471
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+
+</body>
+</html>
