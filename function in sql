@@ -1,0 +1,27 @@
+Function 
+SQL has many built-in functions for performing calculations on data.
+They are divided into 2 categories: 1. Aggregate Function 2. Scalar Function
+
+ Aggregate Function • These functions are used to do operations from the values of the column and a single value is returned.
+ • AVG() - Returns the average value 
+ COUNT() - Returns the • number of rows
+ FIRST() - Returns the first value 
+ • LAST() - Returns the last value 
+ MAX() - Returns the largest value
+ MIN() - Returns the smallest value 
+ SUM() - Returns the sum
+ 
+ 1. AVG(): Syntax: SELECT AVG(column_name) FROM table_name; 
+ Example: SELECT AVG(AGE) AS AvgAge FROM Students;
+ 2. COUNT() Syntax: SELECT COUNT(column_name) FROM table_name;
+ Example: SELECT COUNT(*) AS NumStudents FROM Stuents;
+ 3. FIRST() Syntax: SELECT FIRST(column_name) FROM table_name
+ Example: SELECT FIRST(MARKS) AS MarksFirst FROM Students;
+ 
+ 4. LAST() Syntax: SELECT LAST(column_name) FROM table_name; 
+ Example: SELECT LAST(MARKS) AS MarksLast FROM Students; 5.
+ MAX() Syntax: SELECT MAX(column_name) FROM table_name; 
+ Example :SELECT MAX(MARKS) AS MaxMarks FROM Students; 
+ 6. MIN(): Similar to Max() we can use MIN() function.
+ 7. SUM() : Syntax: SELECT SUM(column_name) FROM table_name;
+ Example: SELECT SUM(MARKS) AS TotalMarks FROM Stuents;
